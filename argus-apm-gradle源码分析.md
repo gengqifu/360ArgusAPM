@@ -126,6 +126,7 @@ private fun init() {
 回到AspectJTransform::transform()中的代码，定义并且初始化了inputSourceFileStatus之后，实例化InputSourceCutter类并且调用它的startCut()方法：`InputSourceCutter(transformInvocation, fileFilter, inputSourceFileStatus).startCut()`。
 下面是一个目录的实际的例子：
 ![Argus Build Path](ArgusBuildPathBase64)
+
 ##InputSourceCutter类
 类InputSourceCutter的构造函数有三个参数, 分别是transformInvocation，前边定义的fileFilter和inputSourceFileStatus，它的init方法如下：
 ```
